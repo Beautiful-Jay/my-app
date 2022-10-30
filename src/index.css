@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+.navigate {
+  background-color: #7D1D1D;
+  color: white;
+  text-align: center;
+  max-width: 150px;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navigation {
+  align-items: center;
+  margin:  0;
+  padding: 25px;
+  text-align: center;
+  justify-content: center; 
+background: rgb(190, 177, 177);
+box-shadow: 0 .5rem 1.5rem rgba(170, 163, 163, 0.69);
 }
+
+button {
+  background-color: rgb(155, 38, 44);
+  padding: 16px 32px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.sty-user {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+span {
+  
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+.lib {
+  color: #7D1D1D;
+  margin-right: 800px;
+}
+
+.no-page {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+
+/* display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(238, 238, 238);
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-image: initial;
+    gap: 1rem;
+    flex: 1 1 17rem;
+    padding: 1.5rem; */
