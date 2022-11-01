@@ -1,7 +1,7 @@
 const SignUp = () => {
     return (
     <div className="sign-up">
-        Don't have an account yet sign up below!
+        Don't have an account yet
         <button className="btn-users">SignUp</button>
     </div>
     );

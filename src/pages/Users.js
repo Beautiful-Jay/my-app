@@ -41,7 +41,7 @@ function Users() {
            <section class="section-one">
             <div><Navigation /></div>
       <div>
-        <h1>Logged on Readers</h1>
+        <h1 className='header'>Logged on Readers</h1>
       </div>
                <div className="">
                  

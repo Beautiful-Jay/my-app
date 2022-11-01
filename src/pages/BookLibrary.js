@@ -6,8 +6,10 @@ function Library () {
       <section>
       <section><Navigation /></section>
       <nav className="sty-user">
+      <div className="book-div">
         <Link to={"sign-up"}>Sign Up</Link> 
         <Link to={"login"}>Login</Link> 
+        </div>
       </nav>
       <Outlet />
       </section>
